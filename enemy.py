@@ -18,7 +18,6 @@ class Enemy(Sprite):
 		dist = math.hypot(dx,dy);
 		dx = dx / dist;
 		dy = dy /dist;
-
 		self.rect.x -= dx * self.speed;
 		self.rect.y -= dy * self.speed;
 	def draw_me(self):

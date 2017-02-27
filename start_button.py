@@ -6,7 +6,7 @@ class Start_Button():
 		self.screen_rect = screen.get_rect();
 		self.width = 250;
 		self.height = 100;
-		self.button_color = 0,255,255;
+		self.button_color = 0,220,255;
 		self.text_color = 255,255,255;
 		self.font = pygame.font.Font(None,52);
 		self.rect = pygame.Rect(0,0,self.width,self.height);

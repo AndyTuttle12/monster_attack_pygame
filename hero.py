@@ -4,7 +4,8 @@ from pygame.sprite import Sprite;
 class Hero(Sprite):
 	def __init__(self, screen):
 		super(Hero,self).__init__();
-		self.image = pygame.image.load('hero.png');
+		self.image = pygame.image.load('john-wick_down.png');
+		self.image = pygame.transform.scale(self.image,(128,128));
 		self.rect = self.image.get_rect();
 		self.screen = screen;
 		self.screen_rect = screen.get_rect();
